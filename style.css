@@ -1,0 +1,37 @@
+body {
+    font-family: Impact;
+    background-color: #d5c7bc;
+    color: #2b142a;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.blue {
+    background-color: #a0b5ba;
+    border-style: line;
+    border-width: .5rem;
+}
+
+.navimage {
+    width: 25%;
+    height: auto;
+}
+
+.purple {
+    background-color: #754e5c;
+    border-style: line;
+    border-width: .5rem;
+}
+p.i{
+    display:inline;
+}
+
+.rightside {
+    margin: auto;
+    text-align: right;
+}
+
+.round {
+    border-radius: 80%;
+}
