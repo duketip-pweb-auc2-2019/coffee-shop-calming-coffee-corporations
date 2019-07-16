@@ -2,6 +2,7 @@ body {
     font-family: Impact;
     background-color: #d5c7bc;
     color: #2b142a;
+    position:relative;
 }
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -14,7 +15,7 @@ p {
 }
 
 .navimage {
-    width: 25%;
+    width: 15%;
     height: auto;
 }
 
@@ -34,4 +35,41 @@ p.i{
 
 .round {
     border-radius: 80%;
+}
+
+.aboutpic {
+    object-fit: cover;
+    max-height: 20%;
+    width:auto;
+}
+.carousel{
+    max-height:2000px;
+}
+.carousel-item{
+    max-height:800px;
+}
+img.car{
+    max-height: 1000px;
+}
+
+.titlesizing {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    background-color: #F9FFFD;
+}
+
+.textresizing {
+    font-size: 30px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+#scrollspy {
+    position: relative;
+    overflow-y: scroll; 
+}
+.row{
+    position:relative;
 }
